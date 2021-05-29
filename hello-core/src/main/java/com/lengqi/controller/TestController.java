@@ -1,5 +1,6 @@
 package com.lengqi.controller;
 
+import com.lengqi.common.Constant;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -14,6 +15,6 @@ public class TestController {
 
     @GetMapping("/hello")
     public String hello(){
-        return "hello-jenkins-modules";
+        return Constant.HELLO;
     }
 }
