@@ -6,6 +6,7 @@
     <modules>
         <module>hello-common</module>
         <module>hello-core</module>
+        <module>hello-user</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -32,11 +33,11 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-            <dependency>
-                <groupId>com.baomidou</groupId>
-                <artifactId>mybatis-plus-boot-starter</artifactId>
-                <version>3.4.2</version>
-            </dependency>
+<!--            <dependency>-->
+<!--                <groupId>com.baomidou</groupId>-->
+<!--                <artifactId>mybatis-plus-boot-starter</artifactId>-->
+<!--                <version>3.4.2</version>-->
+<!--            </dependency>-->
             <dependency>
                 <groupId>net.logstash.logback</groupId>
                 <artifactId>logstash-logback-encoder</artifactId>
