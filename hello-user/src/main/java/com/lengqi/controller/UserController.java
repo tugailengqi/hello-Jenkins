@@ -16,7 +16,7 @@ public class UserController {
      *
      * @return
      */
-    @GetMapping("/**")
+    @GetMapping("/getUser")
     public String getUser(){
         return Constant.SA_TOKEN;
     }
